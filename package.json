@@ -1,0 +1,29 @@
+{
+  "name": "hands-free-ui-api",
+  "version": "1.0.0",
+  "description": "API endpoint for hands-free UI",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "deploy": "serverless deploy --aws-profile jutsu"
+  },
+  "keywords": [
+    "conde generation",
+    "AI",
+    "api"
+  ],
+  "author": "Zahidul Islam",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.1",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.6.2",
+    "morgan": "^1.10.0",
+    "openai": "^4.12.1",
+    "serverless-http": "^3.2.0"
+  }
+}
